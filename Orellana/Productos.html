@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picantería “Soñita”</title>
+    <link rel="stylesheet" href="productos.css">
+    <link rel="shortcut icon" href="logotipo.png" type="image/x-icon">
+</head>
+<body bgcolor="#000000">
+    <header>
+        <a href="index.html" target="_self"  class="logo">
+            <img src="logotipo.png" alt="logo"> 
+            <h2 class="name">Picantería “Soñita”</h2>
+        </a>
+        <nav>
+          <ul class="menu">
+            <li class="hijo1"><a href="index.html" target="_self" class="nav-link">Inicio</a></li>
+            <li class="hijo2"> <a href="Productos.html" class="nav-link">Productos</a></li>
+            <li class="hijo3"><a href="ubicacio.html" class="nav-link" style="letter-spacing: 2px" >Ubicación</a></li>
+            <li class="hijo4"><a href="contacto.html" class="nav-link">Contacto</a></li>
+          </ul>
+        </nav>
+    </header>
+
+
+    <br><br>
+    <section>
+        <center><h1><div class="men">Menú</div></h1></center>
+    
+        <div class="category">
+            
+
+            <div class="product">
+                <table><td><img src="fritada.jpg" id="imagen"  class="animacion" width="150px" ></td>
+                <td><h4 class="product-title">ㅤFritada con Mote</h4>
+                <p class="product-description">ㅤDisfruta del sabor irresistible de la fritada con mote, un plato tradicionalㅤㅤㅤㅤㅤecuatoriano que te conquistará desde el primer bocado.</p>
+                <p class="product-ingredients">ㅤIngredientes: Carne de cerdo, mote, ajo, cebolla, comino, sal, pimienta, aceite,ㅤㅤㅤaguacate, tomate, ají.</p>
+                <p class="product-price">ㅤ$4</p></td>
+            </table> 
+            <script>
+                
+                 function girarImagen() {
+           let grados = 0;
+              const intervalo = setInterval(() => {
+          grados++;
+             imagen.style.transform = `rotate(${grados}deg)`;
+               if (grados === 360) {
+      clearInterval(intervalo);
+    }
+  }, 10);
+}
+
+girarImagen();
+</script>
+                
+            </div>
+
+            <div class="product">
+                <table><td><img src="choclo.jpg" id="imagenn" width="150px" ></td>
+                <td><h4 class="product-title">ㅤChoclo con Queso</h4>
+                <p class="product-description">ㅤUn plato tradicional que te conquistará con su cremosa textura y su explosión deㅤㅤsabores.</p>
+                <p class="product-ingredients">ㅤIngredientes: Choclo tierno y un queso fresco y suave.</p>
+                <p class="product-price">ㅤ$1.50</p></td>
+            </table>
+            <script>
+
+                 function girarImagenn() {
+           let grados = 0;
+              const intervalo = setInterval(() => {
+          grados++;
+             imagenn.style.transform = `rotate(${grados}deg)`;
+               if (grados === 360) {
+      clearInterval(intervalo);
+    }
+  }, 10);
+}
+
+girarImagenn();
+</script>
+            </div>
+
+            <!-- Agrega más productos de hamburguesas aquí -->
+
+        </div>
+
+        <!-- Categoría: Pizzas -->
+        <div class="category">
+        
+
+            <div class="product">
+                <table><td><img src="maduro.jpg" id="iimagen" width="150px"></td>
+                <td><h4 class="product-title">ㅤMaduro con Queso</h4>
+                <p class="product-description">ㅤLa dulzura natural de los plátanos maduros se fusiona a la perfección con la ㅤㅤㅤㅤcremosidad del queso, creando una experiencia culinaria única que te conquistaráㅤㅤdesde el primer bocado.</p>
+                <p class="product-ingredients">ㅤIngredientes: Maduro y un queso fresco y suave</p>
+                <p class="product-price">ㅤ$1.00</p></td></table>
+                <script>
+
+                    function girariimagen() {
+              let grados = 0;
+                 const intervalo = setInterval(() => {
+             grados++;
+                iimagen.style.transform = `rotate(${grados}deg)`;
+                  if (grados === 360) {
+         clearInterval(intervalo);
+       }
+     }, 10);
+   }
+   
+   girariimagen();
+   </script>
+            </div>
+
+            <div class="product">
+                <table><td><img src="chicharon.jpg" id="immagen" width="150px"></td>
+                <td><h4 class="product-title">ㅤChicharon con Mote</h4>
+                <p class="product-description">ㅤPerfecto para compartir con amigos y familia, ideal para cualquier ocasión.</p>
+                <p class="product-ingredients">ㅤIngredientes: Chicharon de cerdo, mote, cebolla, tomate, culantro, sal y pimienta alㅤgusto</p>
+                <p class="product-price">ㅤ$(Opcional)</p></td></table>
+                <script>
+
+                    function girarimmagen() {
+              let grados = 0;
+                 const intervalo = setInterval(() => {
+             grados++;
+                immagen.style.transform = `rotate(${grados}deg)`;
+                  if (grados === 360) {
+         clearInterval(intervalo);
+       }
+     }, 10);
+   }
+   
+   girarimmagen();
+   </script>
+            </div>
+
+            <!-- Agrega más productos de pizzas aquí -->
+
+        </div>
+
+        <!-- Categoría: Hot Dogs -->
+        <div class="category">
+            
+
+            <div class="product">
+                <table><td><img src="cuero.jpg" id="imaagen"  class="jj" style="margin: 10px;"></td>
+                <td><h4 class="product-title">Cueros Reventados</h4>
+                <p class="product-description">Crujiente por fuera, suave y jugoso por dentro.</p>
+                <p class="product-ingredients">Ingredientes: Cuero de cerdo, sal, aceite y achiote</p>
+                <p class="product-price">$(Opcional)</p></td></table>
+                <script>
+
+                    function girarimaagen() {
+              let grados = 0;
+                 const intervalo = setInterval(() => {
+             grados++;
+                imaagen.style.transform = `rotate(${grados}deg)`;
+                  if (grados === 360) {
+         clearInterval(intervalo);
+       }
+     }, 10);
+   }
+   
+   girarimaagen();
+   </script>
+            </div>
+
+            <div class="product">
+                <table><td><img src="salchicha.jpg" id="imaggen" width="150px" height="130px"></td>
+                <td><h4 class="product-title">ㅤCaldo de Salchicha</h4>
+                <p class="product-description">ㅤEl caldo de salchicha es una tradición culinaria ecuatoriana que te cautivará con suㅤsabor intenso y auténtico.</p>
+                <p class="product-ingredients">ㅤIngredientes: Salchicha negra, visceras de cerdo, cebolla, platano, limon y ají.</p>
+                <p class="product-price">ㅤ$3.00</p></td></table>
+                <script>
+
+                    function girarimaggen() {
+              let grados = 0;
+                 const intervalo = setInterval(() => {
+             grados++;
+                imaggen.style.transform = `rotate(${grados}deg)`;
+                  if (grados === 360) {
+         clearInterval(intervalo);
+       }
+     }, 10);
+   }
+   
+   girarimaggen();
+   </script>
+            </div>
+
+            <!-- Agrega más productos de hot dogs aquí -->
+
+        </div>
+
+        <!-- Categoría: Tacos -->
+        <div class="category">
+           
+
+            <div class="product">
+                <table><td><img src="caldo.jpg" id="iiimagen" width="150px"></td>
+                <td><h4 class="product-title">ㅤCaldo de Gallina criolla</h4>
+                <p class="product-description">ㅤOlvídate del estrés y disfruta de un plato reconfortante y lleno de sabor.</p>
+                <p class="product-ingredients">ㅤIngredientes: Gallina criolla, agua, cebolla, tomate, ajo, cilantro, sal y pimienta.</p>
+                <p class="product-price">ㅤ$3.50</p></td></table>
+                <script>
+
+                    function girariiimagen() {
+              let grados = 0;
+                 const intervalo = setInterval(() => {
+             grados++;
+                iiimagen.style.transform = `rotate(${grados}deg)`;
+                  if (grados === 360) {
+         clearInterval(intervalo);
+       }
+     }, 10);
+   }
+   
+   girariiimagen();
+   </script>
+            </div>
+
+            <div class="product">
+                <table><td><img src="seco.jpg" id="immmagen" width="150px"></td>
+                <td><h4 class="product-title">ㅤSeco de gallina criolla</h4>
+                <p class="product-description">ㅤDisfruta del auténtico sabor de la tradición ecuatoriana con nuestro Seco de gallinaㅤcriolla</p>
+                <p class="product-ingredients">ㅤIngredientes: Gllina criolla, cebolla colorada, achiote y cilantro fresco.</p>
+                <p class="product-price">ㅤ$3.50</p></td></table>
+                <script>
+
+                    function girarimmmagen() {
+              let grados = 0;
+                 const intervalo = setInterval(() => {
+             grados++;
+                immmagen.style.transform = `rotate(${grados}deg)`;
+                  if (grados === 360) {
+         clearInterval(intervalo);
+       }
+     }, 10);
+   }
+   
+   girarimmmagen();
+   </script>
+            </div>
+
+            <!-- Agrega más productos de tacos aquí -->
+
+        </div>
+
+        <!-- Categoría: Nuggets de Pollo -->
+        <div class="category">
+            <center><h3 class="category-title">Bebidas</h3></center>
+
+            <div class="product">
+                <table><td><img src="refre.jpg" id="imagen1" width="150px" height="150px"></td>
+                <td><h4 class="product-title">ㅤBebidas</h4>
+                <p class="product-description">ㅤCoca Cola, Tropical, Sprite, Fanta, Agua, Sprite, Cerveza y sus precios son ㅤㅤㅤㅤopcionales.</p>
+               
+            </td></table>
+                <script>
+
+                    function girarimagen1() {
+              let grados = 0;
+                 const intervalo = setInterval(() => {
+             grados++;
+                imagen1.style.transform = `rotate(${grados}deg)`;
+                  if (grados === 360) {
+         clearInterval(intervalo);
+       }
+     }, 10);
+   }
+   
+   girarimagen1();
+   </script>
+            </div>
+
+            <!-- Agrega más productos de nuggets de pollo aquí -->
+
+        
+        </div>
+    </section>
+<div>
+    <a href="contacto.html"><center><button class="bottom"><b>Ordenar</b></button></center></a>
+<br><br><br><br>
+
+
+
+
+    <footer><marquee>
+        &copy; 2024 Picanteria Soñita - El sabor te conquista
+        <a href="https://www.facebook.com/profile.php?id=100093043255449&mibextid=hIlR13" target="_blank"> <img src="Facebook.jpg" width="20px" alt="" >.... </a>         
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="Whatsapplogo.jpg" alt="" width="20px"></a>
+    </footer></marquee>
+  </div>
+   
+</body>
+</html>

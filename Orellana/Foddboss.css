@@ -1,0 +1,295 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+   color: #000000;
+}
+.npd{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+header{
+    display:flex;
+    background-color: #333;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3px solid #750016;
+    
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+.logo img{
+    position: absolute;
+    left: 0px;
+    height: 100px;
+    margin-right: 12px;
+}
+.title,
+.fondopag,
+.product-promo,
+.tt3,
+.npd,
+.produtt,
+.offer,
+.titleofer,
+.ofertas,
+.subtitle,
+.pie,
+.logo, a {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-1%, -1%) scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-1%, -1%) scale(1);
+    }
+}
+.name{
+    padding-left: 33%;
+    font-size: 30px;
+}
+nav a{
+    position:static;
+    font-size: 35px;
+    font-weight: 900;
+    padding-right: 80px;
+   
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif ;
+
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 3px;
+    background-color: #ffffff;
+  }
+
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.cp{
+    font-size: 20px;
+}
+
+.ofertas {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #750016;
+}
+
+
+
+.titleofer {
+    color: #750016;
+    font-family: algerian;
+    font-size: 30px;
+}
+
+.offer {
+    border: 3px solid #830000;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer {
+    background-color:#333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.title,
+.subtitle {
+    opacity: 0; /* Establece la opacidad inicial en 0 para la animación de fade-in */
+    animation: fadeIn 1s ease-out forwards; /* Aplica la animación de fade-in */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-1%, -1%) scale(0.8); /* Otras transformaciones, como escalar, si lo deseas */
+    }
+    to {
+        opacity: 1;
+        transform: translate(-1%, -1%) scale(1);
+    }
+}
+
+
+
+.Productos {
+    max-width: 80%;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+h2 {
+    color: #000000;
+}
+
+.offer {
+    border: 3px solid #830000;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.product-promo {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.product-promo img {
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 45%;
+
+}
+.imagehamb{
+    width: 250px;
+    border-radius: 100px;
+}
+.tt3{
+    font-family: algerian;
+    font-size: 35px;
+}
+.tt3:hover{
+    color: #750016;
+}
+.precio{
+    color: #750016;
+}
+.produtt{
+    font-size: 50px;
+    color: #750016;
+    font-family: algerian;
+}
+.bottom{
+    background-color: #750016;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom:hover{
+    background-color: #a7001f;
+}
+.fondopag{
+    justify-content: space-between;
+    width: 1000px;
+    z-index: 1;
+    height: 400px;
+    opacity: 90%;
+    transition: transform 0.3s ease-out;
+}
+.fondopag:hover{
+    transform: translate(0, -20px); 
+    
+}
+.imagehamb{
+    transition: transform 0.3s ease-out;
+   
+}
+.imagehamb:hover{
+    transform: translate(0, -20px); 
+    
+}
+
+
+nav a:hover{
+    color: hsl(0, 0%, 100%);
+}
+.hijo1 {
+   width: 33.3;
+}
+.hijo2 {
+    width: 33.3;
+ }
+ .hijo3 {
+    width: 33.3;
+ }
+ .hijo4 {
+    width: 33.3;
+ }
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .menu li {
+    display:contents;
+    margin: 0 10px;
+   
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    .menu {
+      display: block;
+    }
+  
+    .menu li {
+      display: block;
+      margin: 10px 0;
+    }
+  }

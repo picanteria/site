@@ -1,0 +1,248 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+   color: #000000;
+}
+header{
+    display: flex;
+    background-color: #333;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3px solid #750016;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+.logo img{
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    margin-right: 12px;
+}
+.title,
+.men,
+.category,
+.subtitle,
+.pie,
+.logo, a {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-1%, -1%) scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-1%, -1%) scale(1);
+    }
+}
+.name{
+    padding-left: 40%;
+    font-size: 30px;
+}
+nav a{
+    position:static;
+    font-size: 35px;
+    font-weight: 900;
+    padding-right: 80px;
+}
+
+.nav-link {
+    color: black;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 3px;
+    background-color: #ffffff;
+  }
+
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .table {
+        margin: 20px;
+      }
+}
+
+
+
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000;
+}
+
+.category {
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.product {
+    border: 3px solid #990000;
+    padding: 20px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+
+img{
+    border-radius: 50px;
+}
+
+.bottom{
+    background-color: #750016;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom:hover{
+    background-color: #a7001f;
+}
+
+
+
+
+
+
+
+
+.offer {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.title,
+.subtitle {
+    opacity: 0; /* Establece la opacidad inicial en 0 para la animación de fade-in */
+    animation: fadeIn 1s ease-out forwards; /* Aplica la animación de fade-in */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-1%, -1%) scale(0); /* Otras transformaciones, como escalar, si lo deseas */
+    }
+    to {
+        opacity: 1;
+        transform: translate(-1%, -1%) scale(1);
+    }
+}
+nav a:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.polio{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+} 
+.jj{
+    width: 140px;
+    height: 100;
+    border-radius: 100px;
+    margin: 27px;
+} 
+.category-title{
+  font-family: Algerian;
+  font-size: 30px;
+} 
+.men{
+    font-family: Algerian;
+    font-size: 50px;
+  } 
+  
+
+
+
+
+
+
+
+  .hijo1 {
+    width: 33.3;
+ }
+ .hijo2 {
+     width: 33.3;
+  }
+  .hijo3 {
+     width: 33.3;
+  }
+  .hijo4 {
+     width: 33.3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .menu li {
+    display:contents;
+    margin: 0 10px;
+   
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    .menu {
+      display: block;
+    }
+  
+    .menu li {
+      display: block;
+      margin: 10px 0;
+    }
+  }

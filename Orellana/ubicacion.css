@@ -1,0 +1,201 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+   color: #000000;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3px solid #750016;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+.logo img{
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    margin-right: 12px;
+}
+.title,
+.subtitle,
+.seccion,
+.h2,
+.pie,
+.logo, a {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+.name{
+    padding-left: 40%;
+    font-size: 30px;
+}
+nav a{
+    position:static;
+    font-size: 35px;
+    font-weight: 900;
+    padding-right: 80px;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    position: relative;
+   
+    
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 3px;
+    background-color: #ffffff;
+  }
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+h2 {
+    color: #000000;
+}
+
+
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    color: #333;
+    font-family: algerian;
+    font-size: 30px;
+}
+
+#map {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+
+.offer {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #750016;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    height: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+nav a:hover{
+    color: hsl(0, 0%, 100%);
+}
+.seccion{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.hijo1 {
+    width: 33.3;
+ }
+ .hijo2 {
+     width: 33.3;
+  }
+  .hijo3 {
+     width: 33.3;
+  }
+  .hijo4 {
+     width: 33.3;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .menu {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ 
+   }
+   
+   .menu li {
+     display:contents;
+     margin: 0 10px;
+    
+   }
+   
+   .menu a {
+     text-decoration: none;
+     color: #000;
+   }
+   
+   @media only screen and (max-width: 1250px) {
+     .menu {
+       display: block;
+     }
+   
+     .menu li {
+       display: block;
+       margin: 10px 0;
+     }
+   }
